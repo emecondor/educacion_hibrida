@@ -1,0 +1,4 @@
+data/clean/*.dta
+data/raw/*.dta
+data/raw/*.xlsx
+*.DS_Store
