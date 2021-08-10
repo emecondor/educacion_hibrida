@@ -9,9 +9,7 @@ Esta carpeta contiene el código y metodología de costeo del proyecto de Educac
 | 01_limpiar_data.do | Limpia las bases de datos utilizadas en el proyecto | 
 | 02_construir_data.do | Construye/Une las base de datos para realizar el costeo | 
 | 03_costeo.do | Realiza el costeo del proyecto de educación híbrida  | 
-| 04_labels.do | Incluye los labels a las variables de la Base Final || 
-
-Table: Your Caption
+| 04_labels.do | Incluye los labels a las variables de la Base Final  |
 
 ## Metodología de estimación de costos de Internet 2022
 
@@ -21,9 +19,10 @@ A continuación se presenta la metodología utilizada para estimar los costos de
 
 En la variable tipo_internet_costeo_2, se consideraron tres opciones bajo los cuales los locales educativos pueden recibir internet, mediante (i) Operador, (ii) Microservers y (iii) Satelital. Sin embargo, esta última opción no será atendida.  A continuación, se detallan los criterios considerados para determinar bajo que modalidad iba a ser atendido el local educativo
 
+**Criterios para cada modalidad de atención**
 | **Modalidad de atención** | **Criterio** | 
 | ------------------------- | ------------ |
-| Operador                  | Se considera que se va a utilizar operador si: ·En el código ubigeo que se encuentra el local educativo hay por lo menos un operador disponible que ofrece servicio móvil 4G o Internet Fijo. ·Asimismo, se considera aquellos locales educativos que actualmente ya tienen un contrato de internet por el cual reciben internet mediante ADSL, fibra óptica, red móvil o Wifi |
+| Operador                  | Se considera que se va a utilizar operador si: <div> - En el código ubigeo que se encuentra el local educativo hay por lo menos un operador disponible que ofrece servicio móvil 4G o Internet Fijo. <div> - Asimismo, se considera aquellos locales educativos que actualmente ya tienen un contrato de internet por el cual reciben internet mediante ADSL, fibra óptica, red móvil o Wifi |
 | Microserver | Locales educativos sin internet. Se identifica aquellos locales sin internet, como aquellos en los que el docente no recibió un plan de datos. |
 | Satelital   | Locales educativos que no son tipo de internet ni de operador ni microserver. |
 
@@ -41,16 +40,15 @@ Para el caso del tipo de internet operador y satelital, en lo que respecta a cos
 
 Utilizando la información del contrato Bitel N 0004-2018-MINEDU/UE 026 se estimó que el costo fijo anual del tipo de internet “Operador” para cada IIEE asciende a S/ 10,784.71.
 
-Monto mensual y anual de costos fijos de Operador para cada IIEE.
+**Monto mensual y anual de costos fijos de Operador para cada IIEE**
 |**Costos fijos**|   |   |
 |----------------|---|---|
 |Tipo de Internet|Costo Mensual   |Costo Anual     |
 |Operador        |S/ 898.73       |S/ 10,784.71    |
 
 
-Detalle de los costos fijos de Operador para cada IIEE
-
-|**Detalle de costos fijos. Tipo: Operador**|  **Costo mensual*** |
+**Detalle de los costos fijos de Operador para cada IIEE**
+|**Detalle de costos fijos. Tipo: Operador**|  **Costo mensual** |
 |-------------------------------------------|---------------------|
 | Accesorios para cableado estructurado incluye faceplate 1 puerto rj45, jack, roseta, patch cord, cinta | S/ 2.70 |
 | Implementación y puesta en Operatividad del servicio para enlaces con Fibra Óptica | S/ 190.00 |
@@ -91,8 +89,7 @@ Detalle de los costos fijos de Operador para cada IIEE
 
 Los costos variables van a depender los Mbps que necesite el instituto educativo. En el cuadro que se muestra a continuación, se detallan los costos mensuales y anuales dependiendo del requerimiento de Mbps del local educativo:
 
-Detalle de los costos variables de Operador para cada IIEE
-
+**Detalle de los costos variables de Operador para cada IIEE**
 |**Mbps**          |**Costo mensual**|**Costo anual**|
 |------------------|-----------------|---------------|
 |Mbps>0 & Mbps<4   |S/ 45            |S/ 540         |
@@ -105,11 +102,7 @@ Detalle de los costos variables de Operador para cada IIEE
 
 2.	Costos por Tipo de internet: Satelital
 
-Monto mensual y anual de costos fijos de Satelital para cada IIEE
-
-
-Detalle de los costos fijos de Satelital para cada IIEE
-
+**Monto mensual y anual de costos fijos de Satelital para cada IIEE**
 |**Costos fijos**| - | - |
 |----------------|---|---|
 |Tipo de Internet|Costo Mensual   |Costo Anual     |
@@ -117,8 +110,7 @@ Detalle de los costos fijos de Satelital para cada IIEE
 
 Los costos variables van a depender los Mbps que necesite el instituto educativo. 
 
-Detalle de los costos fijos de Satelital para cada IIEE
-
+**Detalle de los costos fijos de Satelital para cada IIEE**
 |**Detalle de costos fijos. Tipo: Satelital**|  **Costo mensual*** | 
 |--------------------------------------------|---------------------|
 |Cable UTP categoría 6 LSZH-3 cumple con normal 568. c.2|S/ 15.00|
@@ -157,7 +149,7 @@ Detalle de los costos fijos de Satelital para cada IIEE
 
 Los costos variables van a depender los Mbps que necesite el instituto educativo. 
 
-Detalle de los costos variables de Satelital para cada IIEE
+**Detalle de los costos variables de Satelital para cada IIEE**
 |**Mbps**        |**Costo mensual**|**Costo anual**|
 |----------------|-------------|-----------|
 |Mbps>0 & Mbps<4 |S/ 645       |S/ 7,740   |
