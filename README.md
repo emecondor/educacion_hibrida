@@ -1,6 +1,6 @@
 # Repositorio del proyecto de Educación Híbrida
 
-Este repositorio contiene los informes del proyecto de Educación Híbrida y el código para replicar el costeo realizado. El proyecto de educación híbrida tiene como objetivo...
+Este repositorio contiene los informes del proyecto de Educación Híbrida y el código para replicar el costeo. El proyecto de educación híbrida tiene como objetivo...
 
 ## Contenido del repositorio
 
