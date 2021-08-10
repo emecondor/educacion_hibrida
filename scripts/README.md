@@ -19,8 +19,6 @@ A continuación se presenta la metodología utilizada para estimar los costos de
 
 En la variable tipo_internet_costeo_2, se consideraron tres opciones bajo los cuales los locales educativos pueden recibir internet, mediante (i) Operador, (ii) Microservers y (iii) Satelital. Sin embargo, esta última opción no será atendida.  A continuación, se detallan los criterios considerados para determinar bajo que modalidad iba a ser atendido el local educativo
 
-
-
 | **Modalidad de atención** | **Criterio** | 
 | ------------------------- | ------------ |
 | Operador                  | Se considera que se va a utilizar operador si: ·En el código ubigeo que se encuentra el local educativo hay por lo menos un operador disponible que ofrece servicio móvil 4G o Internet Fijo. ·Asimismo, se considera aquellos locales educativos que actualmente ya tienen un contrato de internet por el cual reciben internet mediante ADSL, fibra óptica, red móvil o Wifi |
@@ -29,11 +27,10 @@ En la variable tipo_internet_costeo_2, se consideraron tres opciones bajo los cu
 
 ###	Paso II: Calcular el requerimiento de Mbps (Solo aplica para el caso de las modalidades de atención por Operador)
 
-a)	Determinar el número de dispositivos electrónicos del local educativo: Se calcula el número de dispositivos electrónicos del local educativo utilizando la información del Censo 2020 que indica la cantidad de dispositivos electrónicos en uso en un local educativo, así como el número de tabletas que el local educativo recibiría en la Fase I y II.
-b)	Determinar el requerimiento de Mbps del local educativo: De acuerdo al informe 01418-2020-MINEDU/VMGP-DITE se establece que el requerimiento mínimo de internet por dispositivo electrónico es de 0.55 Mbps. Por lo tanto, para determinar el requerimiento de Mbps de cada local educativo se multiplica el numero obtenido en el punto (a) por 0.55. 
-c)	Determinar la disponibilidad actual de Mbps del local educativo:  Se utiliza la información proporcionada por la OTIC  en la cual se detalla los Mbps disponibles de acuerdo a los contratos vigentes. Ello permite saber con cuanto Mbps dispone la escuela. 
-d)	Determinar la demanda de Mbps para el 2022: se obtiene de la resta del requerimiento de Mbps del local educativo (calculado en el punto b) con la disponibilidad actual de Mbps del local educativo (calculado en el punto c) 
-
+a.	Determinar el número de dispositivos electrónicos del local educativo: Se calcula el número de dispositivos electrónicos del local educativo utilizando la información del Censo 2020 que indica la cantidad de dispositivos electrónicos en uso en un local educativo, así como el número de tabletas que el local educativo recibiría en la Fase I y II.
+b.	Determinar el requerimiento de Mbps del local educativo: De acuerdo al informe 01418-2020-MINEDU/VMGP-DITE se establece que el requerimiento mínimo de internet por dispositivo electrónico es de 0.55 Mbps. Por lo tanto, para determinar el requerimiento de Mbps de cada local educativo se multiplica el numero obtenido en el punto (a) por 0.55. 
+c.	Determinar la disponibilidad actual de Mbps del local educativo:  Se utiliza la información proporcionada por la OTIC  en la cual se detalla los Mbps disponibles de acuerdo a los contratos vigentes. Ello permite saber con cuanto Mbps dispone la escuela. 
+d.	Determinar la demanda de Mbps para el 2022: se obtiene de la resta del requerimiento de Mbps del local educativo (calculado en el punto b) con la disponibilidad actual de Mbps del local educativo (calculado en el punto c).
 
 ###	Paso III: Calcular el costo anual del requerimiento de Mbps (Solo aplica para el caso de las modalidades de atención por Operador o Satelital)
 Para el caso del tipo de internet operador y satelital, en lo que respecta a costos fijos y variables, se utilizó el modelo de estructura de costos del contrato de Bitel (N 0004-2018-MINEDU/UE 026). A continuación de detalla los costos unitarios considerados para cada uno de los casos:
