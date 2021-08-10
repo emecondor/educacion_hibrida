@@ -10,6 +10,7 @@ Esta carpeta contiene el código y metodología de costeo del proyecto de Educac
 | 02_construir_data.do | Construye/Une las base de datos para realizar el costeo | 
 | 03_costeo.do | Realiza el costeo del proyecto de educación híbrida  | 
 | 04_labels.do | Incluye los labels a las variables de la Base Final | 
+
 Table: Your Caption
 
 ## Metodología de estimación de costos de Internet 2022
