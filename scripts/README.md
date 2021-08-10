@@ -19,13 +19,13 @@ A continuación se presenta la metodología utilizada para estimar los costos de
 
 En la variable tipo_internet_costeo_2, se consideraron tres opciones bajo los cuales los locales educativos pueden recibir internet, mediante (i) Operador, (ii) Microservers y (iii) Satelital. Sin embargo, esta última opción no será atendida.  A continuación, se detallan los criterios considerados para determinar bajo que modalidad iba a ser atendido el local educativo
 
-| Texto 1  |  texto 2 |   |   |
-|---|---|---|---|
-|   |   |   |   |
-|   |   |   |   |
-|   |   |   |   |
-|   |   |   |   |
 
+
+| **Modalidad de atención** | **Criterio** | 
+| ------------------------- | ------------ |
+| Operador                  | Se considera que se va a utilizar operador si: ·En el código ubigeo que se encuentra el local educativo hay por lo menos un operador disponible que ofrece servicio móvil 4G o Internet Fijo. ·Asimismo, se considera aquellos locales educativos que actualmente ya tienen un contrato de internet por el cual reciben internet mediante ADSL, fibra óptica, red móvil o Wifi |
+| Microserver | Locales educativos sin internet. Se identifica aquellos locales sin internet, como aquellos en los que el docente no recibió un plan de datos. |
+| Satelital   | Locales educativos que no son tipo de internet ni de operador ni microserver. |
 
 ###	Paso II: Calcular el requerimiento de Mbps (Solo aplica para el caso de las modalidades de atención por Operador)
 
