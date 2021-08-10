@@ -7,6 +7,8 @@ Este repositorio contiene los informes del proyecto de Educación Híbrida y el 
 - [Resumen Brecha Digital](https://raw.githubusercontent.com/emecondor/educacion_hibrida/main/documentacion/Resumen-Brecha-Digital.txt)
 - [Revisión de Literatura - Brecha Digital](https://github.com/emecondor/educacion_hibrida/blob/main/documentacion/Revision_Literatura-Brecha-Digital.txt)
 - [Código y costeo del Proyecto](https://github.com/emecondor/educacion_hibrida/tree/main/scripts)
+- [Base final y diccionario de variables](https://github.com/emecondor/educacion_hibrida/tree/main/output)
+
 
 ## Reproducción de resultados
 
