@@ -100,15 +100,13 @@ Los costos variables van a depender los Mbps que necesite el instituto educativo
 |Mbps>=15 & Mbps<20|S/ 267           |S/ 3,204       |
 |Mbps>=20          |S/ 327           |S/ 3,924       |
 
-2.	Costos por Tipo de internet: Satelital
+**2.	Costos por Tipo de internet: Satelital**
 
 **Monto mensual y anual de costos fijos de Satelital para cada IIEE**
 |**Costos fijos**| - | - |
 |----------------|---|---|
 |Tipo de Internet|Costo Mensual   |Costo Anual     |
 |Satelital       |S/ 868.53       |S/ 10,422.31    |
-
-Los costos variables van a depender los Mbps que necesite el instituto educativo. 
 
 **Detalle de los costos fijos de Satelital para cada IIEE**
 |**Detalle de costos fijos. Tipo: Satelital**|  **Costo mensual*** | 
