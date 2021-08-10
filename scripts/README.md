@@ -40,21 +40,123 @@ Para el caso del tipo de internet operador y satelital, en lo que respecta a cos
 Utilizando la información del contrato Bitel N 0004-2018-MINEDU/UE 026 se estimó que el costo fijo anual del tipo de internet “Operador” para cada IIEE asciende a S/ 10,784.71.
 
 Monto mensual y anual de costos fijos de Operador para cada IIEE.
-|**Costos fijos**|
-|----------------|
+|**Costos fijos**|   |   |
+|----------------|---|---|
 |Tipo de Internet|Costo Mensual   |Costo Anual     |
 |Operador        |S/ 898.73       |S/ 10,784.71    |
 
+Detalle de los costos fijos de Operador para cada IIEE
+| Accesorios para cableado estructurado incluye faceplate 1 puerto rj45, jack, roseta, patch cord, cinta | S/ 2.70 |
+| Implementación y puesta en Operatividad del servicio para enlaces con Fibra Óptica | S/ 190.00 |
+| Pozos a tierra | S/ 50.00 |
+| Sistema de pozo a tierra a 05 ohmios | S/ 40.00 |
+| Suministro de Access Point que Incluye inyector Poe, kit de montaje, cable de poder, licencias para gestión de nube, kit de candado | S/ 169.90 |
+| Suministro de gabinete de comunicaciones que incluyen ventilados, power bar, bandeja, tablero eléctrico adosado con ITM, soporte para piso de 30cm de altura, tuercas | S/ 32.60 |
+| Accesorio para canaletas | S/ 4.72 |
+| Access Point (kit de reposición en caso de Robo) | S/ 5.99 |
+| Canaletas con certificación UL.5A | S/ 10.36 |
+| Canalización para Cableado de Telecomunicaciones | S/ 40.00 |
+| Capacitación de Monitoreo | S/ 2.00 |
+| Capacitación en IIEE | S/ 25.00 |
+| Capacitación Personal MINEDU Filtro WEB | S/ 5.24 |
+| Coordinado Residente (Ingeniero Onsite) | S/ 3.00 |
+| Estabilizador en caso corresponda (kit de reposición en caso de Robo) | S/ 3.00 |
+| Estabilizador RF de la solución satelital (kit de reposición en caso de Robo) | S/ 58.24 |
+| Gestión de servicio | S/ 8.54 |
+| Gestor de la Operación | S/ 0.78 |
+| implementación y puesta en Operatividad del servicio para infraestructura interna | S/ 31.88 |
+| Ingenieros NOC | S/ 3.66 |
+| Instalación de Router, configuración y otros equipos de conectividad para la operatividad del servicio | S/ 35.00 |
+| Jefe de Proyecto | S/ 4.16 |
+| Patch Cord y transever última milla | S/ 22.00 |
+| Plataforma de Monitoreo | S/ 13.35 |
+| Router (kit de reposición en caso de Robo) | S/ 3.33 |
+| Solución de Filtrado Web Centralizado | S/ 39.93 |
+| Solución técnica de Filtrado | S/ 27.80 |
+| Soporte Técnico | S/ 13.01 |
+| Soporte Técnico para Access Point estabilizador, Gabinete y accesorios | S/ 6.74 |
+| Suministro de cableado eléctrico 4mmm2 para cometida eléctrica, cable 6mm2 para aterramiento | S/ 12.48 |
+| Suministro de computadora para monitoreo de red con monitos y licencias Windows 10 incluyendo licencias de Microsoft | S/ 0.30 |
+| Suministro de ferretería que incluye cajas de montaje, tomacorrientes, terminales, tornillos, tarugos autorrsacantes, tirafones, cinta aislante, vulcanizante, maskintape, cintillo, espirales, tarugos | S/ 2.97 |
+| Suministro de tuberías de PVS SAP que incluyen accesorios como conectores, curvas, uniones, abrazaderas, caja de paso | S/ 5.95 |
+| Transporte de materiales/fleta/viáticos | S/ 20.63 |
+| UPS (kit de reposición en caso de Robo) | S/ 3.49 |
+| **Total, general** | **S/ 898.73** |
 
 Los costos variables van a depender los Mbps que necesite el instituto educativo. En el cuadro que se muestra a continuación, se detallan los costos mensuales y anuales dependiendo del requerimiento de Mbps del local educativo:
 
+Detalle de los costos variables de Operador para cada IIEE
 
-b)	Costos por Tipo de internet: Satelital
+|**Mbps**          |**Costo mensual**|**Costo anual**|
+|------------------|-----------------|---------------|
+|Mbps>0 & Mbps<4   |S/ 45            |S/ 540         |
+|Mbps>=4 & Mbps<6  |S/ 167           |S/ 2,004       |
+|Mbps>=6 & Mbps<8  |S/ 177           |S/ 2,124       |
+|Mbps>=8 & Mbps<10 |S/ 197           |S/ 2,364       |
+|Mbps>=10 & Mbps<15|S/ 217           |S/ 2,604       |
+|Mbps>=15 & Mbps<20|S/ 267           |S/ 3,204       |
+|Mbps>=20          |S/ 327           |S/ 3,924       |
+
+2.	Costos por Tipo de internet: Satelital
 
 Monto mensual y anual de costos fijos de Satelital para cada IIEE
 
+
+Detalle de los costos fijos de Satelital para cada IIEE
+
+|**Costos fijos**| | |
+|----------------|---|---|
+|Tipo de Internet|Costo Mensual   |Costo Anual     |
+|Satelital       |S/ 868.53       |S/ 10,422.31    |
 Los costos variables van a depender los Mbps que necesite el instituto educativo. 
+
+Detalle de los costos fijos de Satelital para cada IIEE
+|Cable UTP categoría 6 LSZH-3 cumple con normal 568. c.2|S/ 15.00|
+|Equipamiento Satelital por IIEE (Antena, modem, equipo, rf)|S/ 90.00|
+|Implementación y puesta en Operatividad del servicio para enlaces Satelitales|S/ 350.00|
+|Accesorio para canaletas|S/ 4.72|
+|Access Point (kit de reposición en caso de Robo)|S/ 5.99|
+|Canaletas con certificación UL.5A|S/ 10.36|
+|Canalización para Cableado de Telecomunicaciones|S/ 40.00|
+|Capacitación de Monitoreo|S/ 2.00|
+|Capacitación en IIEE|S/ 25.00|
+|Capacitación Personal MINEDU Filtro WEB|S/ 5.24|
+|Coordinado Residente (Ingeniero Onsite)|S/ 3.00|
+|Estabilizador en caso corresponda (kit de reposición en caso de Robo)|S/ 3.00|
+|Estabilizador RF de la solución satelital (kit de reposición en caso de Robo)|S/ 58.24|
+|Gestión de servicio|S/ 8.54|
+|Gestor de la Operación|S/ 0.78|
+|implementación y puesta en Operatividad del servicio para infraestructura interna|S/ 31.88|
+|Ingenieros NOC|S/ 3.66|
+|Instalación de Router, configuración y otros equipos de conectividad para la operatividad del servicio|S/ 35.00|
+|Jefe de Proyecto|S/ 4.16|
+|Patch Cord y transever última milla|S/ 22.00|
+|Plataforma de Monitoreo|S/ 13.35|
+|Router (kit de reposición en caso de Robo)|S/ 3.33|
+|Solución de Filtrado Web Centralizado|S/ 39.93|
+|Solución técnica de Filtrado|S/ 27.80|
+|Soporte Técnico|S/ 13.01|
+|Soporte Técnico para Access Point estabilizador, Gabinete y accesorios|S/ 6.74|
+|Suministro de cableado eléctrico 4mmm2 para cometida eléctrica, cable 6mm2 para aterramiento|S/ 12.48|
+|Suministro de computadora para monitoreo de red con monitos y licencias Windows 10 incluyendo licencias de Microsoft|S/ 0.30|
+|Suministro de ferretería que incluye cajas de montaje, tomacorrientes, terminales, tornillos, tarugos autorrsacantes, tirafones, cinta aislante, vulcanizante, maskintape, cintillo, espirales, tarugos|S/ 2.97|
+|Suministro de tuberías de PVS SAP que incluyen accesorios como conectores, curvas, uniones, abrazaderas, caja de paso|S/ 5.95|
+|Transporte de materiales/fleta/viáticos|S/ 20.63|
+|UPS (kit de reposición en caso de Robo)|S/ 3.49|
+|**Total general**|**S/ 868.53**|
+
+Los costos variables van a depender los Mbps que necesite el instituto educativo. 
+
+Detalle de los costos variables de Satelital para cada IIEE
+|Mbps            |Costo mensual|Costo anual|
+|----------------|-------------|-----------|
+|Mbps>0 & Mbps<4 |S/ 645       |S/ 7,740   |
+|Mbps>=4 & Mbps<6|S/ 3,205     |S/ 38,460  |
 
 ###	Paso IV: Calcular el costo de la asignación de Microservers (no aplica para los locales educativos que serán atendidos por internet de operadores)
 La estructura de costos de los microservers, se considera lo siguiente en base a los costos unitarios brindados por DITE. 
 
+|                     |**Costo Microserver**|**Costo Cargador**|**Costo modelaje y trasporte unitario**|**Costo total unitario**|
+|---------------------|---------------------|------------------|---------------------------------------|------------------------|
+|Zona con electricidad|S/ 2,600             |S/0               |S/ 21.29                               |S/ 2,621.29             |
+|Zona sin electricidad|S/ 2,600             |S/ 1000           |S/ 21.29                               |S/ 3,621.29             |
