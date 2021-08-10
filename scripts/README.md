@@ -45,7 +45,10 @@ Monto mensual y anual de costos fijos de Operador para cada IIEE.
 |Tipo de Internet|Costo Mensual   |Costo Anual     |
 |Operador        |S/ 898.73       |S/ 10,784.71    |
 
+
 Detalle de los costos fijos de Operador para cada IIEE
+
+|**Detalle de costos fijos. Tipo: Operador**|  **Costo mensual*** | |
 | Accesorios para cableado estructurado incluye faceplate 1 puerto rj45, jack, roseta, patch cord, cinta | S/ 2.70 |
 | Implementación y puesta en Operatividad del servicio para enlaces con Fibra Óptica | S/ 190.00 |
 | Pozos a tierra | S/ 50.00 |
@@ -104,13 +107,16 @@ Monto mensual y anual de costos fijos de Satelital para cada IIEE
 
 Detalle de los costos fijos de Satelital para cada IIEE
 
-|**Costos fijos**| | |
+|**Costos fijos**| - | - |
 |----------------|---|---|
 |Tipo de Internet|Costo Mensual   |Costo Anual     |
 |Satelital       |S/ 868.53       |S/ 10,422.31    |
+
 Los costos variables van a depender los Mbps que necesite el instituto educativo. 
 
 Detalle de los costos fijos de Satelital para cada IIEE
+
+|**Detalle de costos fijos. Tipo: Satelital**|  **Costo mensual*** | |
 |Cable UTP categoría 6 LSZH-3 cumple con normal 568. c.2|S/ 15.00|
 |Equipamiento Satelital por IIEE (Antena, modem, equipo, rf)|S/ 90.00|
 |Implementación y puesta en Operatividad del servicio para enlaces Satelitales|S/ 350.00|
@@ -148,7 +154,7 @@ Detalle de los costos fijos de Satelital para cada IIEE
 Los costos variables van a depender los Mbps que necesite el instituto educativo. 
 
 Detalle de los costos variables de Satelital para cada IIEE
-|Mbps            |Costo mensual|Costo anual|
+|**Mbps**        |**Costo mensual**|**Costo anual**|
 |----------------|-------------|-----------|
 |Mbps>0 & Mbps<4 |S/ 645       |S/ 7,740   |
 |Mbps>=4 & Mbps<6|S/ 3,205     |S/ 38,460  |
