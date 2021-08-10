@@ -1,6 +1,6 @@
 # Repositorio del proyecto de Educación Híbrida
 
-Este repositorio contiene los informes del proyecto de Educación Híbrida y el código para replicar el costeo. El proyecto de educación híbrida tiene como objetivo...
+Este repositorio contiene los informes del proyecto de Educación Híbrida y el código para replicar el costeo. El proyecto de educación híbrida tiene como objetivo acortar las brechas digitales de acceso a dispositivos y conectividad, asegurar que los estudiantes y docentes tengan las habilidades para aprovechar las tecnologías digitales, incrementar los aprendizajes de los estudiantes y hacer más resiliente nuestro sistema educativo
 
 ## Contenido del repositorio
 
