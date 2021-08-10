@@ -52,6 +52,10 @@ Detalle de los costos fijos de Operador para cada IIEE
 | Accesorios para cableado estructurado incluye faceplate 1 puerto rj45, jack, roseta, patch cord, cinta | S/ 2.70 |
 | Implementación y puesta en Operatividad del servicio para enlaces con Fibra Óptica | S/ 190.00 |
 | Pozos a tierra | S/ 50.00 |
+
+
+
+
 | Sistema de pozo a tierra a 05 ohmios | S/ 40.00 |
 | Suministro de Access Point que Incluye inyector Poe, kit de montaje, cable de poder, licencias para gestión de nube, kit de candado | S/ 169.90 |
 | Suministro de gabinete de comunicaciones que incluyen ventilados, power bar, bandeja, tablero eléctrico adosado con ITM, soporte para piso de 30cm de altura, tuercas | S/ 32.60 |
