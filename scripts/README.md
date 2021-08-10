@@ -13,7 +13,7 @@ Esta carpeta contiene el código y metodología de costeo del proyecto de Educac
 
 ## Metodología de estimación de costos de Internet 2022
 
-A continuación se presenta la metodología utilizada para estimar los costos de Internet 2022, el do file `03_costeo.do` contiene el código empleado.
+A continuación se presenta la metodología utilizada para estimar los costos de Internet 2022 del do file `03_costeo.do`.
 
 ### Paso I: Determinar bajo que modalidad va a ser atendido el local educativo 
 
@@ -49,13 +49,10 @@ Monto mensual y anual de costos fijos de Operador para cada IIEE.
 Detalle de los costos fijos de Operador para cada IIEE
 
 |**Detalle de costos fijos. Tipo: Operador**|  **Costo mensual*** |
+|-------------------------------------------|---------------------|
 | Accesorios para cableado estructurado incluye faceplate 1 puerto rj45, jack, roseta, patch cord, cinta | S/ 2.70 |
 | Implementación y puesta en Operatividad del servicio para enlaces con Fibra Óptica | S/ 190.00 |
 | Pozos a tierra | S/ 50.00 |
-
-
-
-
 | Sistema de pozo a tierra a 05 ohmios | S/ 40.00 |
 | Suministro de Access Point que Incluye inyector Poe, kit de montaje, cable de poder, licencias para gestión de nube, kit de candado | S/ 169.90 |
 | Suministro de gabinete de comunicaciones que incluyen ventilados, power bar, bandeja, tablero eléctrico adosado con ITM, soporte para piso de 30cm de altura, tuercas | S/ 32.60 |
@@ -121,6 +118,7 @@ Los costos variables van a depender los Mbps que necesite el instituto educativo
 Detalle de los costos fijos de Satelital para cada IIEE
 
 |**Detalle de costos fijos. Tipo: Satelital**|  **Costo mensual*** | 
+|--------------------------------------------|---------------------|
 |Cable UTP categoría 6 LSZH-3 cumple con normal 568. c.2|S/ 15.00|
 |Equipamiento Satelital por IIEE (Antena, modem, equipo, rf)|S/ 90.00|
 |Implementación y puesta en Operatividad del servicio para enlaces Satelitales|S/ 350.00|
