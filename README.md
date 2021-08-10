@@ -31,7 +31,7 @@ Instrucciones para replicar
 3. Inicia sesión en GitHub Desktop con tu usuario Github.
 5. Haz click en el botón verde `Code` que se muestra arriba de la lista de archivos en este repositorio, haz click en la opción `Open with GitHub Desktop`.
 6. Abre la ruta del repositorio clonado y navega a `data/raw`.
-7. La data utilizada se encuentra en la Unidad B de Minedu. Ve a `B:\OneDrive - Ministerio de Educación\unidad_B\2022\1. Estudios Data\educ_hibrida\data\raw` utilizando el VPN. Copia esta data en el folder `data/raw` del repositorio clonado.
+7. La data utilizada se encuentra en la Unidad B del Onedrive de Minedu. Ve a `B:\OneDrive - Ministerio de Educación\unidad_B\2022\1. Estudios Data\educ_hibrida\data\raw` utilizando el VPN. Copia esta data en el folder `data/raw` del repositorio clonado. Si eres parte de Minedu y no tienes acceso a la Unidad B, puedes contactarte con el Equipo de Analítica de Datos de la Unidad de Planificación y Presupuesto.
 8. En el folder `scripts` encontrarás un script llamado `00_master.do`.
 9. Para correr el código abre `00_master.do` y copia la ruta del repositorio clonado en la sección `Ruta`.
 10. Los outputs se guardarán en la carpeta `output`.
