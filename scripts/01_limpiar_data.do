@@ -1,19 +1,23 @@
 
-*****************************************
-*0. GUARDAR BASES DE DATOS EN FORMATO DTA*
-*****************************************
-	*Base de codigos modulares
-	import excel using "$data_raw/inf_consolidado.xlsx", sheet(cod_mod) firstrow clear
+    *****************************************
+    *1. GUARDAR BASES DE DATOS EN FORMATO DTA*
+    *****************************************
+
+    *******************************
+    *Base de codigos modulares*
+    *******************************	
+    import excel using "$data_raw/inf_consolidado.xlsx", sheet(cod_mod) firstrow clear
 	save "$data_clean/cod_mod.dta", replace
 
-	*Base de locales escolares
+    ******************************
+    *Base de locales educativos*
+    ******************************	
 	import excel using "$data_raw/inf_consolidado.xlsx", sheet(equipo_por_local) firstrow clear
 	save "$data_clean/equipo_local.dta", replace 
 	
-
-***********************************************************
-*0. Guardar excel de CONECTIVIDAD + PLAN DE DATOS en dta
-***********************************************************
+	*************************************
+    *Base de CONECTIVIDAD + PLAN DE DATOS*
+    *************************************
 	import excel using "$data_raw/210607 DATA DE CONECTIVIDAD + Plan de datos Final_01.02.2021 + CODCPINEI....xlsx", sheet("Data_Consolidada + MTC") firstrow clear 
 	keep   CÓDIGODELOCAL Servicio_Movil_F Servicio_Movil_2G Servicio_Movil_3G Servicio_Movil_4G Internet_Fijo
 	rename CÓDIGODELOCAL cod_local_2
@@ -24,24 +28,24 @@
 	rename Internet_Fijo num_operadores_IF
 	save "$data_clean/num_operadores_mtc.dta", replace
 	
-******************************************	
-	*Guardar excel de microservers en dta
-******************************************
+	****************************
+    *Base de Microservers* 
+    ****************************
     import excel using "$data_raw/Base_Microservers.xlsx", sheet("BBDD") firstrow clear 
     keep cod_local_2 Microserver_BM Microserver_Minedu
     gen N_microserver= Microserver_BM + Microserver_Minedu
     collapse (sum) N_microserver Microserver_BM Microserver_Minedu, by(cod_local_2)
 
-*egen x= sum(N_microserver)
-*sort cod_local_2 
-*quietly by cod_local_2: gen dup = cond(_N==1,0,_n)
-*export excel "$root\Output\microservers.xlsx", firstrow(varlabels) replace
+    *egen x= sum(N_microserver)
+    *sort cod_local_2 
+    *quietly by cod_local_2: gen dup = cond(_N==1,0,_n)
+    *export excel "$root\Output\microservers.xlsx", firstrow(varlabels) replace
 	  
     save "$data_clean/Base_Microservers.dta", replace
-
-*************************************************************
-*1. Guardar las variables que necesito del excel de COD_MOD 
-*************************************************************
+	
+    ****************************************************
+    *Base de COD_MOD para generar Fase 1 y Fase 2*
+    ****************************************************
 	use "$data_clean/cod_mod.dta", clear
 	keep if D_NIV_MOD == "Primaria"  | D_NIV_MOD == "Secundaria"
 	sort D_NIV_MOD

@@ -1,6 +1,6 @@
-*****************************************************************************************************	
-*2. Utilizar las variables que nos interesan de la hoja "EquipoLocal" del excel info_consolidada
-*****************************************************************************************************
+    *****************************************************************************************************	
+    *2. Utilizar las variables que nos interesan de la hoja "EquipoLocal" del excel info_consolidada
+    *****************************************************************************************************
     use "$data_clean/equipo_local.dta", clear 
 	
     drop ancho_banda_total
@@ -20,9 +20,9 @@
 
     keep cod_local_2 TOTAL_PROVE TOTAL_ESTADO TOTAL_MEDIO_TRANS2 TOTAL_BAJADA TOTAL_SUBIDA TOTAL_GARANTIZADO TOTAL_ACCESOS PRONATEL_1 PRONATEL_2 PRONATEL_3 PRONATEL_4 OTIC_1 OTIC_1 OTIC_2  pc_4 notebook_4 laptopXO_4 tablet_4 dispositivos_2020 Mgbs_total Mgbs_total_rango Mgbs_Xdisp Mgbs_calidad
 
-***************************************	
-*3.Merge de todas las bases de datos 
-***************************************
+    ***************************************	
+    *3.Merge de todas las bases de datos 
+    ***************************************
 	 
 	*a. Merge con base de datos de la hoja cod_mod del excel info_consolidada (Punto 1 del dofile)
 	***********************************************************************************************
