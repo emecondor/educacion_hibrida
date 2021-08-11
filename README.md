@@ -1,6 +1,13 @@
 # Repositorio del proyecto de Educación Híbrida
 
-Este repositorio contiene los informes del proyecto de Educación Híbrida y el código para replicar el costeo. El proyecto de educación híbrida tiene como objetivo acortar las brechas digitales de acceso a dispositivos y conectividad, asegurar que los estudiantes y docentes tengan las habilidades para aprovechar las tecnologías digitales, incrementar los aprendizajes de los estudiantes y hacer más resiliente nuestro sistema educativo
+Este repositorio contiene los informes del proyecto de Educación Híbrida y el código para replicar el costeo. El proyecto de educación híbrida tiene como objetivo acortar las brechas digitales de acceso a dispositivos y conectividad, asegurar que los estudiantes y docentes tengan las habilidades para aprovechar las tecnologías digitales, incrementar los aprendizajes de los estudiantes y hacer más resiliente nuestro sistema educativo.
+
+Los cuatro componentes clave del proyecto son: 
+ 
+1. Infraestructura Tecnológica:  incluye una serie de recursos necesarios para que los maestros y estudiantes, accedan a dispositivos tecnológicos que funcionen adecuadamente. Incluyen los dispositivos electrónicos (laptops, tabletas, pizarras digitales, cámaras o cualquier dispositivo que sirva de apoyo a la enseñanza), así como otros recursos necesarios para operar los dispositivos como el internet, la electricidad, un espacio físico adecuado, muebles, medidas de seguridad y soporte técnico. 
+2. Recursos Digitales: Los contenidos digitales incluyen los aplicativos o softwares educativos, los aplicativos o softwares para la gestión de entornos virtuales, así como otras aplicaciones, plataformas y portales. Incluye también aquellos programas digitales para la gestión escolar. 
+3. Fortalecimiento de Capacidades:  Se refiere a las capacidades para el uso de las TIC y la incorporación de estas en la práctica pedagógica por parte de los docentes.  El desarrollo profesional del docente es clave para incorporar la tecnología al aprendizaje.   
+4. Gestión del Proyecto: Se refiere a la estructura organizacional que lidera, gestiona y asegura la sostenibilidad en el tiempo del proyecto de cierre de brecha digital.  
 
 ## Contenido del repositorio
 
