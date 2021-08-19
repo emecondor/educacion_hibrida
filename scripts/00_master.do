@@ -2,7 +2,7 @@
 
 // Seleccionar acciones --------------------------------------------------------
 
-	local limpiar_data				0 // Corre script de limpieza de datos
+	local limpiar_data				1 // Corre script de limpieza de datos
 	local construir_data	      	1 // Corre script de construcción de base de datos
 	local costeo					1 // Realiza el Costeo
 	local labels					1 // Formato de variables
