@@ -4,7 +4,7 @@
     use "$data_clean/equipo_local.dta", clear 
 	
     drop ancho_banda_total
-    gen  Mgbs_total = TOTAL_BAJADA
+    gen  Mpbs_total = TOTAL_BAJADA
 
     replace ancho_banda_promedio = "0" if ancho_banda_promedio=="-"
     destring ancho_banda_promedio, replace
@@ -13,12 +13,12 @@
     destring dispositivos_total, replace
     rename dispositivos_total dispositivos_2020
 
-    rename rango_ancho_banda_total Mgbs_total_rango
-    rename ancho_banda_promedio  Mgbs_Xdisp
-    rename ancho_banda_calidad Mgbs_calidad
-    replace Mgbs_calidad = "" if Mgbs_calidad == "-"
+    rename rango_ancho_banda_total Mpbs_total_rango
+    rename ancho_banda_promedio  Mpbs_Xdisp
+    rename ancho_banda_calidad Mpbs_calidad
+    replace Mpbs_calidad = "" if Mpbs_calidad == "-"
 
-    keep cod_local_2 TOTAL_PROVE TOTAL_ESTADO TOTAL_MEDIO_TRANS2 TOTAL_BAJADA TOTAL_SUBIDA TOTAL_GARANTIZADO TOTAL_ACCESOS PRONATEL_1 PRONATEL_2 PRONATEL_3 PRONATEL_4 OTIC_1 OTIC_1 OTIC_2  pc_4 notebook_4 laptopXO_4 tablet_4 dispositivos_2020 Mgbs_total Mgbs_total_rango Mgbs_Xdisp Mgbs_calidad
+    keep cod_local_2 TOTAL_PROVE TOTAL_ESTADO TOTAL_MEDIO_TRANS2 TOTAL_BAJADA TOTAL_SUBIDA TOTAL_GARANTIZADO TOTAL_ACCESOS PRONATEL_1 PRONATEL_2 PRONATEL_3 PRONATEL_4 OTIC_1 OTIC_1 OTIC_2  pc_4 notebook_4 laptopXO_4 tablet_4 dispositivos_2020 Mpbs_total Mpbs_total_rango Mpbs_Xdisp Mpbs_calidad
 
     ***************************************	
     *3.Merge de todas las bases de datos 
